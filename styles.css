@@ -1,0 +1,46 @@
+body{
+background-color: lightgreen;
+}
+
+h1{
+    text-align: center;
+}
+
+#board{
+display:none;
+}
+#game{
+    /*display:none;*/
+    position: relative;
+    height: 385px;
+    background: url("https://i.stack.imgur.com/WHu9Z.png") repeat-x;   
+    
+}
+
+#mario{
+height:100px;
+position: absolute;
+bottom: 60px;
+left: 285px;
+}
+
+#coin{
+height:50px;  
+position: absolute;
+bottom: 250px;
+left: 300px;
+}
+
+h3{
+float: right;
+margin: 25px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    display: block;
+    margin: 20px auto;
+    }
